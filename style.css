@@ -148,7 +148,7 @@ ul {
 
 /* Completed */
 
-.completed__list .task {
+.completed__list .task-label {
   text-decoration: line-through;
   color: #888;
 }
