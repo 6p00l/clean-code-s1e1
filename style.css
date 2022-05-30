@@ -44,9 +44,11 @@ ul {
 }
 
 @media (max-width: 768px) {
+
   .logo {
     text-align: center;
   }
+  
 }
 
 .wrapper {
