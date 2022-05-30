@@ -4,6 +4,7 @@ body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
+    
 }
 
 ul {
@@ -78,7 +79,7 @@ button{
 /* Heading */
 
 h3,
-label[for=new-task] {
+.label-new-task {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -88,7 +89,7 @@ label[for=new-task] {
     text-transform: uppercase;
 }
 
-input[type="text"] {
+.input-text {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
