@@ -99,6 +99,7 @@ ul {
 }
 
 /* New Task */
+
 .label-new-task {
   display: block;
   margin: 0 0 20px;
@@ -153,6 +154,7 @@ ul {
 }
 
 /* Edit Task */
+
 .list-tasks .input-text {
   display: none;
 }
