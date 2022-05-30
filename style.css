@@ -127,11 +127,8 @@ li {
     align-items: center;
 }
 
-li > * {
-    vertical-align: middle;
-}
 
-li > input[type="checkbox"] {
+.input-checkbox {
     margin: 0 10px;
 }
 
@@ -142,7 +139,7 @@ li > input[type="checkbox"] {
     width: 226px;
 }
 
-li >    .input-text {
+.list-tasks   .input-text {
     width: 226px
 }
 
@@ -164,15 +161,15 @@ li >    .input-text {
 }
 
 /* Edit Task */
-ul li .input-text {
+.list-tasks .input-text {
     display: none
 }
 
-ul li.task-edit .input-text {
+.task-edit .input-text {
     display: inline-block;
     width: 224px
 }
 
-ul li.task-edit label {
+.task-edit .task-label {
     display: none;
 }
