@@ -6,6 +6,21 @@ body {
     font-family: Lato, sans-serif;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li, 
+h3 {
+    list-style: none;
+}
+
+input,
+button{
+    outline: none;
+}
+
 .logo {
     width: 500px;
     margin: 0 auto;
@@ -13,7 +28,7 @@ body {
     text-align: right;
 }
 
-.logo img {
+.logo .img {
     width: 100%;
 }
 
@@ -44,21 +59,6 @@ body {
 
 .adding__wrapper {
     display: flex;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-li, 
-h3 {
-    list-style: none;
-}
-
-input,
-button{
-    outline: none;
 }
 
 button {
@@ -146,13 +146,13 @@ li >    input[type="text"] {
     width: 226px
 }
 
-.delete img {
+.delete .img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.delete .img:hover {
     transform: rotateZ(0);
 }
 
